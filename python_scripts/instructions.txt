@@ -1,0 +1,17 @@
+from src.db_connection import create_connection, close_connection
+import pandas as pd
+
+# Connect to database
+engine = create_connection()
+
+# Your SQL query
+query = "SELECT * FROM sales LIMIT 200"
+df = pd.read_sql(query, engine)
+
+# Your code here
+print(df)
+
+# Close connection
+close_connection(engine)
+
+** will need these lines in every python script **

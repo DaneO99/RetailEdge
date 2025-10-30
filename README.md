@@ -22,9 +22,10 @@ It is designed as a modular, production-style pipeline built entirely in Python,
 |----------|-------------------|
 | Programming | Python (3.10+) |
 | Data Processing | Pandas, NumPy |
-| Data Storage / Querying | SQLite, SQL |
+| Database | MySQL, SQLAlchemy, PyMySQL |
 | Visualization | Seaborn, Matplotlib |
 | Modeling | Scikit-Learn |
+| Environment Management | python-dotenv |
 | Reporting | Markdown, JSON metrics |
 | Automation | Custom pipeline via main.py |
 
