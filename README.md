@@ -1,5 +1,7 @@
 # RetailEdge
 
+> **⚠️ Project Status**: This project is currently under active development. Some features and components described below may not yet be fully implemented.
+
 RetailEdge is an end-to-end data analytics and machine learning project that transforms raw retail sales data into actionable business insights.
 
 The system performs data ingestion, cleaning, exploratory analysis, and predictive modeling to identify profit drivers, analyze sales performance, and forecast future revenue trends.
